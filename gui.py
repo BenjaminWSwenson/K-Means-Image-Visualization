@@ -4,15 +4,11 @@ from tkinter import filedialog
 from PIL import Image, ImageTk
 from image_utils import *
 
-# For making the executable answer 1
-# https://superuser.com/questions/296869/why-doesnt-my-executable-execute-when-i-click-on-it
-
 
 class Root(Tk):
     def __init__(self):
         super(Root, self).__init__()
         self.title("K-means Visualization Tool")
-        #self.minsize(1000, 700)
 
         self.imgFrame = ttk.Labelframe(self)
         self.imgFrame.grid(column=0, row=4)
