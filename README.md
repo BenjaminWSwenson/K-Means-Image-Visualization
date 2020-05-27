@@ -20,4 +20,4 @@ Firstly all images have to be JPEGs. To have a result delivered in a resonable a
 1. Utilise Pyinstaller to create a single executable file from `gui.py`
 2. Create a save file dialog in `gui.py` to save the result image
 ## Credits
-Inspiration for this project and outline of `image_utils.py` and `run_k_means.py` is from Prof. Daniel Kulver
+Inspiration for this project is from Prof. Daniel Kulver
