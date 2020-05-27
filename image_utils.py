@@ -6,7 +6,6 @@ from sklearn.cluster import KMeans
 def read_jpg(filename):
     pic = Image.open(filename)
     image = np.array(pic)
-    # list = image.tolist()
     return image
 
 
