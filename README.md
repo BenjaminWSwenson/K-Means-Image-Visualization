@@ -1,5 +1,5 @@
 # K-means Clustering Image Visualization
-This is a simple tool to help visualize k-means clustering. Many graphics that show clustering display clustering on point on a plot. Another interesting way to show the results of this algorithm is to perform clustering on pixels in an image, which is what is program does, specifically JPEGs.
+This is a simple tool to help visualize k-means clustering. Many graphics that show k-means display clustering on data points on a plot. Another interesting way to show the results of this algorithm is to perform clustering on pixels in an image, which is what is program does, specifically JPEGs.
 ## Python Module Dependencies
 ### NumPy
 To install NumPy run `pip install numpy`
