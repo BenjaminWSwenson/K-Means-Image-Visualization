@@ -9,7 +9,7 @@ class Root(Tk):
     def __init__(self):
         super(Root, self).__init__()
         self.title("K-means Visualization Tool")
-
+        self.geometry("2000x700")
         self.imgFrame = ttk.Labelframe(self)
         self.imgFrame.grid(column=0, row=4)
         self.labelFrame = ttk.LabelFrame(self, text="Open File")
