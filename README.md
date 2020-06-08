@@ -21,6 +21,6 @@ The second method is by using the gui. This can be done by running `python3 gui.
 ## Optimal Inputs
 Firstly all images have to be JPEGs. To have a result delivered in a resonable amount of time, the image should be roughly 300x300 or smaller, and K should be no larger than 5. The example image plane.jpeg is 194x259, with a K of 3 a result image is created in ~13 seconds.
 ## ToDo
-1. Create a save file dialog in `gui.py` to save the result image
+* Create a save file dialog in `gui.py` to save the result image
 ## Credits
 Inspiration for this project is from Prof. Daniel Kluver
